@@ -10,7 +10,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U subprograms%b		subprograms.adb		b75182f0 NE OO SU
+U subprograms%b		subprograms.adb		70455f1e NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -29,7 +29,7 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D subprograms.adb	20210722123522 19a5579d subprograms%b
+D subprograms.adb	20210722130240 deb18a73 subprograms%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -59,10 +59,14 @@ X 1 ada.ads
 16K9*Ada 20e8 13|1r6 4r24
 X 9 a-textio.ads
 58K13*Text_IO 725e16 13|1w10 4r28
-506U14*Put_Line 13|7s8 11s11
+506U14*Put_Line 13|10s11 15s8 19s11 20s11 24s14 25s14
 X 13 subprograms.adb
-3U11*Subprograms 3b11 13l5 13t16
-4K12 TIO=4:28 7r4 11r7
-5i4 Duplicated{integer} 7r33
-9f7 Duplicated{float} 11r32
+3U11*Subprograms 3b11 20r36 28l5 28t16
+4K12 TIO=4:28 10r7 15r4 19r7 20r7 24r10 25r10
+5i4 Duplicated{integer} 15r33 20r48
+7U14 New_Proc 7b14 11l8 11t16 14s4
+8i7 Duplicated{integer} 10r36
+16q4 Outer_Block 25r35 27l8 27e19
+17f7 Duplicated{float} 19r32 25r47
+22i10 Duplicated{integer} 24r39
 
