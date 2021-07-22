@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__subprograms.o
+[PROJECT FILES]
+E:\Users\User\Ada\SubPrograms_Ada\subprograms.gpr
+20210721192152 2da9b7bdad6b556ab16ffa3fdb5f1c4f
+[BOUND OBJECT FILES]
+E:\Users\User\Ada\SubPrograms_Ada\obj\subprograms.o
+[GENERATED SOURCE FILES]
+b__subprograms.ads
+b__subprograms.adb
+b__subprograms.ali
+[RESULTING OPTIONS]
+-LE:\Users\User\Ada\SubPrograms_Ada\obj\
+-LE:\Users\User\Ada\SubPrograms_Ada\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
